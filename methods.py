@@ -1,6 +1,6 @@
 from torch import load, no_grad, zeros, save
 from torch import Tensor, tensor, long
-from torch.nn import Module, NLLLoss
+from torch.nn import NLLLoss
 from sklearn.metrics import accuracy_score
 from util import line2tensor
 from time import time
