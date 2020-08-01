@@ -1,9 +1,10 @@
-[![License: BSD](https://anaconda.org/anaconda/anaconda/badges/license.svg)
+![License: BSD](https://anaconda.org/anaconda/anaconda/badges/license.svg)
 [![PyTorch](https://github.com/AhmetTavli/Badge/blob/master/badges/pytorch-badge.svg)](https://pytorch.org/)
 [![python](https://upload.wikimedia.org/wikipedia/commons/f/fc/Blue_Python_3.7_Shield_Badge.svg)](https://www.python.org/)
 [![anaconda](https://anaconda.org/anaconda/anaconda/badges/version.svg)
 [![Scikit-learn](https://github.com/AhmetTavli/Badge/blob/master/badges/scikit_learn_badge.svg)](https://scikit-learn.org/stable/)
 [![PyCharm](https://github.com/AhmetTavli/Badge/blob/master/badges/pycharm_badge.svg)](https://www.jetbrains.com/pycharm/)
+
 
 # Character-Level RNN - (PyTorch Tutorial)
 
