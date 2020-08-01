@@ -11,7 +11,6 @@ from methods import train_rnn
 from methods import evaluate_rnn
 from model import RNNModel
 from model import RNNTutorial
-from string import ascii_letters
 
 
 def main():
@@ -29,10 +28,7 @@ def main():
     # Get all categories and the corresponding lines
     all_cat, cat_line = dataset(pathname=path)
 
-    if args.rnn_type == 'Transformer':
-        input_size = len(ascii_letters)
-    else:
-        input_size = AllLetters.n_letters
+    input_size = AllLetters.n_letters
 
     output_size = len(all_cat)
 

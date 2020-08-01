@@ -1,7 +1,7 @@
-[![License: BSD](https://anaconda.org/anaconda/anaconda/badges/license.svg)
+![License: BSD](https://anaconda.org/anaconda/anaconda/badges/license.svg)
 [![PyTorch](https://github.com/AhmetTavli/Badge/blob/master/badges/pytorch-badge.svg)](https://pytorch.org/)
 [![python](https://upload.wikimedia.org/wikipedia/commons/f/fc/Blue_Python_3.7_Shield_Badge.svg)](https://www.python.org/)
-[![anaconda](https://anaconda.org/anaconda/anaconda/badges/version.svg)
+![anaconda](https://anaconda.org/anaconda/anaconda/badges/version.svg)
 [![Scikit-learn](https://github.com/AhmetTavli/Badge/blob/master/badges/scikit_learn_badge.svg)](https://scikit-learn.org/stable/)
 [![PyCharm](https://github.com/AhmetTavli/Badge/blob/master/badges/pycharm_badge.svg)](https://www.jetbrains.com/pycharm/)
 
@@ -197,10 +197,10 @@ Accuracy: 44.34%
 
 From above we can see that 68.95% increase to 75.47%
 
-| 2-layer           |128 neuron (68.95%)                                 |512 neuron (75.47%)|
-|:----------------:|:--------------------------------------------------:|:--------:|
-| Train Loss        |![](rnn_linear2_relu/rnn_loss.png)                  |![](rnn_linear2_relu_512/rnn_loss.png)|
-| Confuson Matrix   |![](rnn_linear2_relu/confusion_matrix_with_norm.png)|![](rnn_linear2_relu_512/confusion_matrix_with_norm.png)|
+| 2-layer|128 neuron (68.95%)                             |512 neuron (75.47%)|
+|:-:|:-:|:-:|
+| Train Loss|![](rnn_linear2_relu/rnn_loss.png)          |![](rnn_linear2_relu_512/rnn_loss.png)|
+| Confusion Matrix   |![](rnn_linear2_relu/confusion_matrix_with_norm.png)|![](rnn_linear2_relu_512/confusion_matrix_with_norm.png)|
 
 ## Can we pass 75.47% accuracy?
 

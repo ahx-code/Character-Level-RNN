@@ -10,7 +10,6 @@ from letters import AllLetters
 from math import floor
 from time import time
 from torch import int64
-from string import ascii_letters
 
 
 def unicode2ascii(s):
@@ -161,7 +160,7 @@ def letter2tensor(letter):
 def line2tensor(line, rnn_type):
     """Turns a line into a one-hot vector
     """
-    n_letters = len(ascii_letters)
+    n_letters = AllLetters.n_letters
 
     tensor_size = len(line), 1, n_letters
 
@@ -169,6 +168,7 @@ def line2tensor(line, rnn_type):
         tensor_ = zeros(tensor_size)
     else:
         tensor_ = zeros(tensor_size).type(dtype=int64)
+
     for count, letter in enumerate(line):
         idx = letter2index(letter)
         tensor_[count][0][idx] = 1
