@@ -347,6 +347,8 @@ def init_hidden(self):
 | LSTM (3-layer)|12.64%|14.31%|11.02%|
 | GRU (3-layer)|**60.94%**|**60.53%**|**58.65%**|
 
+### Result:
+
 So far the best performing parameters:
 
 | no `dropout` |Accuracy|Neuron|Layer|
