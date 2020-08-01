@@ -202,7 +202,7 @@ From above we can see that 68.95% increase to 75.47%
 | Train Loss|![](rnn_linear2_relu/rnn_loss.png)          |![](rnn_linear2_relu_512/rnn_loss.png)|
 | Confusion Matrix   |![](rnn_linear2_relu/confusion_matrix_with_norm.png)|![](rnn_linear2_relu_512/confusion_matrix_with_norm.png)|
 
-## Can we pass 75.47% accuracy?
+## Can we pass 75.47% accuracy?
 
 ### LSTM Model
 
