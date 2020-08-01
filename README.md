@@ -1,5 +1,5 @@
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ahx-code/Character-Level-RNN.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ahx-code/Character-Level-RNN/context:python)
-![License: BSD](https://anaconda.org/anaconda/anaconda/badges/license.svg)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![PyTorch](https://github.com/AhmetTavli/Badge/blob/master/badges/pytorch-badge.svg)](https://pytorch.org/)
 [![python](https://upload.wikimedia.org/wikipedia/commons/f/fc/Blue_Python_3.7_Shield_Badge.svg)](https://www.python.org/)
 ![anaconda](https://anaconda.org/anaconda/anaconda/badges/version.svg)
