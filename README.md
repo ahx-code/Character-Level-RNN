@@ -19,6 +19,11 @@ Each text is consisting of different names; i.e.
 - German <- Abel,  Artz, Auer ...
 - ...
 
+## Example usage:
+```bash
+python main.py --num-layers 3 --hidden-size 256 --dropout 0.5 --rnn-type "RNN"
+```
+
 Sean used the following structure.
 
 ```python
